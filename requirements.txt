@@ -1,0 +1,9 @@
+Django>=5.1,<5.2
+djangorestframework>=3.15,<3.16
+django-filter>=24.3,<25.0
+drf-spectacular>=0.28,<0.29
+python-decouple>=3.8,<4.0
+
+# Production-only (install separately when deploying with PostgreSQL):
+# psycopg2-binary>=2.9,<3.0
+# gunicorn>=23.0,<24.0
